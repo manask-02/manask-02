@@ -3,6 +3,8 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=manask-02&label=Profile%20views&color=0e75b6&style=flat" alt="manask-02" /> </p>
 
+- 🔭 I’m currently working on **RTL Design of Superscalar Pipelined RISC-V Microprocessor**
+
 - 🌱 I’m currently learning **Python for Design Verification**
 
 - 💬 Ask me about **Circuit Design and IoT for Electric Vehicles**
