@@ -1,13 +1,15 @@
 <h1 align="center">Hello There 👋, I'm Manas Kulkarni</h1>
 <h3 align="center">Electrical Engineering Masters Student at the University of Pennsylvania</h3>
 
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=manask-02&label=Profile%20views&color=0e75b6&style=flat" alt="manask-02" /> </p>
+
 - 🌱 I’m currently learning **Python for Design Verification**
 
 - 💬 Ask me about **Circuit Design and IoT for Electric Vehicles**
 
 - 📫 How to reach me **manask@seas.upenn.edu**
 
-- 📄 Know about my experiences [here](https://drive.google.com/file/d/1voWCRR9TMLokDOHRMENoxAV7blOA9QdN/view)
+- 📄 Know about my experiences [https://drive.google.com/file/d/1voWCRR9TMLokDOHRMENoxAV7blOA9QdN/view](https://drive.google.com/file/d/1voWCRR9TMLokDOHRMENoxAV7blOA9QdN/view)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
