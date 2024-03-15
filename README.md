@@ -9,7 +9,7 @@
 
 - 📫 How to reach me **manask@seas.upenn.edu**
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1voWCRR9TMLokDOHRMENoxAV7blOA9QdN/view](https://drive.google.com/file/d/1voWCRR9TMLokDOHRMENoxAV7blOA9QdN/view)
+- 📄 Know about my experiences [here](https://drive.google.com/file/d/1voWCRR9TMLokDOHRMENoxAV7blOA9QdN/view)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
