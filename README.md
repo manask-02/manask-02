@@ -111,7 +111,7 @@ I work at the intersection of **silicon design and automation**, from RTL to GDS
 ### ⚡ Signal Flow
 
 <p align="center">
-  <img src="assets/circuit-flow.svg" alt="Animated RTL-to-GDSII flow with signal pulses and clock/data waveforms" width="100%"/>
+  <img src="circuit-flow.svg" alt="Animated RTL-to-GDSII flow with signal pulses and clock/data waveforms" width="100%"/>
 </p>
 
 ---
