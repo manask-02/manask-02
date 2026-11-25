@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="270" viewBox="0 0 860 270">
+<defs>
+<pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#21262d"/></pattern>
+<clipPath id="panel"><rect x="1" y="1" width="858" height="268" rx="14"/></clipPath>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<style>
+.t{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.lbl{font-size:15px;font-weight:700;text-anchor:middle}
+.sub{font-size:10px;fill:#8b949e;text-anchor:middle}
+.hdr{font-size:13px;fill:#8b949e}
+.sig{font-size:11px;fill:#8b949e}
+</style>
+</defs>
+<rect x="1" y="1" width="858" height="268" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+<g clip-path="url(#panel)">
+<rect width="860" height="270" fill="url(#grid)"/>
+<text x="24" y="34" class="t hdr">// rtl_to_gdsii.flow</text>
+<text x="836" y="34" class="t hdr" text-anchor="end">status: <tspan fill="#3fb950">timing met ✓</tspan></text>
+<path id="bus" d="M 0 110.0 H 860" stroke="#30363d" stroke-width="3" fill="none"/>
+<circle r="5" fill="#58a6ff" filter="url(#glow)"><animateMotion dur="6s" repeatCount="indefinite" begin="0.0s"><mpath href="#bus"/></animateMotion></circle>
+<circle r="5" fill="#58a6ff" filter="url(#glow)"><animateMotion dur="6s" repeatCount="indefinite" begin="-1.5s"><mpath href="#bus"/></animateMotion></circle>
+<circle r="5" fill="#58a6ff" filter="url(#glow)"><animateMotion dur="6s" repeatCount="indefinite" begin="-3.0s"><mpath href="#bus"/></animateMotion></circle>
+<circle r="5" fill="#58a6ff" filter="url(#glow)"><animateMotion dur="6s" repeatCount="indefinite" begin="-4.5s"><mpath href="#bus"/></animateMotion></circle>
+<rect x="54" y="72" width="6" height="8" fill="#484f58"/><rect x="54" y="140" width="6" height="8" fill="#484f58"/>
+<rect x="76" y="72" width="6" height="8" fill="#484f58"/><rect x="76" y="140" width="6" height="8" fill="#484f58"/>
+<rect x="98" y="72" width="6" height="8" fill="#484f58"/><rect x="98" y="140" width="6" height="8" fill="#484f58"/>
+<rect x="120" y="72" width="6" height="8" fill="#484f58"/><rect x="120" y="140" width="6" height="8" fill="#484f58"/>
+<rect x="40" y="80" width="100" height="60" rx="6" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
+<text x="90.0" y="108" class="t lbl" fill="#58a6ff">RTL</text>
+<text x="90.0" y="126" class="t sub">SystemVerilog</text>
+<circle cx="130" cy="90" r="3" fill="#58a6ff" filter="url(#glow)" opacity="0.25"><animate attributeName="opacity" values="0.25;1;0.25" dur="1.5s" begin="0.63s" repeatCount="indefinite"/></circle>
+<rect x="190" y="72" width="6" height="8" fill="#484f58"/><rect x="190" y="140" width="6" height="8" fill="#484f58"/>
+<rect x="212" y="72" width="6" height="8" fill="#484f58"/><rect x="212" y="140" width="6" height="8" fill="#484f58"/>
+<rect x="234" y="72" width="6" height="8" fill="#484f58"/><rect x="234" y="140" width="6" height="8" fill="#484f58"/>
+<rect x="256" y="72" width="6" height="8" fill="#484f58"/><rect x="256" y="140" width="6" height="8" fill="#484f58"/>
+<rect x="176" y="80" width="100" height="60" rx="6" fill="#161b22" stroke="#a371f7" stroke-width="2"/>
+<text x="226.0" y="108" class="t lbl" fill="#a371f7">SYNTH</text>
+<text x="226.0" y="126" class="t sub">Genus / DC</text>
+<circle cx="266" cy="90" r="3" fill="#a371f7" filter="url(#glow)" opacity="0.25"><animate attributeName="opacity" values="0.25;1;0.25" dur="1.5s" begin="0.08s" repeatCount="indefinite"/></circle>
+<rect x="326" y="72" width="6" height="8" fill="#484f58"/><rect x="326" y="140" width="6" height="8" fill="#484f58"/>
+<rect x="348" y="72" width="6" height="8" fill="#484f58"/><rect x="348" y="140" width="6" height="8" fill="#484f58"/>
+<rect x="370" y="72" width="6" height="8" fill="#484f58"/><rect x="370" y="140" width="6" height="8" fill="#484f58"/>
+<rect x="392" y="72" width="6" height="8" fill="#484f58"/><rect x="392" y="140" width="6" height="8" fill="#484f58"/>
+<rect x="312" y="80" width="100" height="60" rx="6" fill="#161b22" stroke="#f778ba" stroke-width="2"/>
+<text x="362.0" y="108" class="t lbl" fill="#f778ba">P&amp;R</text>
+<text x="362.0" y="126" class="t sub">Innovus</text>
+<circle cx="402" cy="90" r="3" fill="#f778ba" filter="url(#glow)" opacity="0.25"><animate attributeName="opacity" values="0.25;1;0.25" dur="1.5s" begin="1.03s" repeatCount="indefinite"/></circle>
+<rect x="462" y="72" width="6" height="8" fill="#484f58"/><rect x="462" y="140" width="6" height="8" fill="#484f58"/>
+<rect x="484" y="72" width="6" height="8" fill="#484f58"/><rect x="484" y="140" width="6" height="8" fill="#484f58"/>
+<rect x="506" y="72" width="6" height="8" fill="#484f58"/><rect x="506" y="140" width="6" height="8" fill="#484f58"/>
+<rect x="528" y="72" width="6" height="8" fill="#484f58"/><rect x="528" y="140" width="6" height="8" fill="#484f58"/>
+<rect x="448" y="80" width="100" height="60" rx="6" fill="#161b22" stroke="#f0883e" stroke-width="2"/>
+<text x="498.0" y="108" class="t lbl" fill="#f0883e">STA</text>
+<text x="498.0" y="126" class="t sub">PrimeTime</text>
+<circle cx="538" cy="90" r="3" fill="#f0883e" filter="url(#glow)" opacity="0.25"><animate attributeName="opacity" values="0.25;1;0.25" dur="1.5s" begin="0.47s" repeatCount="indefinite"/></circle>
+<rect x="598" y="72" width="6" height="8" fill="#484f58"/><rect x="598" y="140" width="6" height="8" fill="#484f58"/>
+<rect x="620" y="72" width="6" height="8" fill="#484f58"/><rect x="620" y="140" width="6" height="8" fill="#484f58"/>
+<rect x="642" y="72" width="6" height="8" fill="#484f58"/><rect x="642" y="140" width="6" height="8" fill="#484f58"/>
+<rect x="664" y="72" width="6" height="8" fill="#484f58"/><rect x="664" y="140" width="6" height="8" fill="#484f58"/>
+<rect x="584" y="80" width="100" height="60" rx="6" fill="#161b22" stroke="#d29922" stroke-width="2"/>
+<text x="634.0" y="108" class="t lbl" fill="#d29922">EM/IR</text>
+<text x="634.0" y="126" class="t sub">RedHawk-SC</text>
+<circle cx="674" cy="90" r="3" fill="#d29922" filter="url(#glow)" opacity="0.25"><animate attributeName="opacity" values="0.25;1;0.25" dur="1.5s" begin="1.42s" repeatCount="indefinite"/></circle>
+<rect x="734" y="72" width="6" height="8" fill="#484f58"/><rect x="734" y="140" width="6" height="8" fill="#484f58"/>
+<rect x="756" y="72" width="6" height="8" fill="#484f58"/><rect x="756" y="140" width="6" height="8" fill="#484f58"/>
+<rect x="778" y="72" width="6" height="8" fill="#484f58"/><rect x="778" y="140" width="6" height="8" fill="#484f58"/>
+<rect x="800" y="72" width="6" height="8" fill="#484f58"/><rect x="800" y="140" width="6" height="8" fill="#484f58"/>
+<rect x="720" y="80" width="100" height="60" rx="6" fill="#161b22" stroke="#3fb950" stroke-width="2"/>
+<text x="770.0" y="108" class="t lbl" fill="#3fb950">GDSII</text>
+<text x="770.0" y="126" class="t sub">Tapeout</text>
+<circle cx="810" cy="90" r="3" fill="#3fb950" filter="url(#glow)" opacity="0.25"><animate attributeName="opacity" values="0.25;1;0.25" dur="1.5s" begin="0.87s" repeatCount="indefinite"/></circle>
+<text x="24" y="191.0" class="t sig">CLK</text>
+<g transform="translate(70,0)"><svg x="0" y="0" width="766" height="270" overflow="hidden"><path d="M 0 198 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20 V 176 h 20 V 198 h 20" stroke="#58a6ff" stroke-width="2" fill="none"><animateTransform attributeName="transform" type="translate" from="0 0" to="-40 0" dur="1.00s" repeatCount="indefinite"/></path></svg></g>
+<text x="24" y="231.0" class="t sig">DATA</text>
+<g transform="translate(70,0)"><svg x="0" y="0" width="766" height="270" overflow="hidden"><path d="M 0 238 V 216 h 20 V 216 h 20 V 238 h 20 V 216 h 20 V 238 h 20 V 238 h 20 V 216 h 20 V 238 h 20 V 216 h 20 V 216 h 20 V 238 h 20 V 216 h 20 V 238 h 20 V 238 h 20 V 216 h 20 V 238 h 20 V 216 h 20 V 216 h 20 V 238 h 20 V 216 h 20 V 238 h 20 V 238 h 20 V 216 h 20 V 238 h 20 V 216 h 20 V 216 h 20 V 238 h 20 V 216 h 20 V 238 h 20 V 238 h 20 V 216 h 20 V 238 h 20 V 216 h 20 V 216 h 20 V 238 h 20 V 216 h 20 V 238 h 20 V 238 h 20 V 216 h 20 V 238 h 20 V 216 h 20 V 216 h 20 V 238 h 20 V 216 h 20 V 238 h 20 V 238 h 20 V 216 h 20 V 238 h 20 V 216 h 20 V 216 h 20 V 238 h 20 V 216 h 20 V 238 h 20 V 238 h 20 V 216 h 20 V 238 h 20 V 216 h 20 V 216 h 20 V 238 h 20 V 216 h 20 V 238 h 20 V 238 h 20 V 216 h 20 V 238 h 20 V 216 h 20 V 216 h 20 V 238 h 20 V 216 h 20 V 238 h 20 V 238 h 20 V 216 h 20 V 238 h 20 V 216 h 20 V 216 h 20 V 238 h 20 V 216 h 20 V 238 h 20 V 238 h 20 V 216 h 20 V 238 h 20 V 216 h 20 V 216 h 20 V 238 h 20 V 216 h 20 V 238 h 20 V 238 h 20 V 216 h 20 V 238 h 20 V 216 h 20 V 216 h 20 V 238 h 20 V 216 h 20 V 238 h 20 V 238 h 20 V 216 h 20 V 238 h 20" stroke="#3fb950" stroke-width="2" fill="none"><animateTransform attributeName="transform" type="translate" from="0 0" to="-160 0" dur="4.00s" repeatCount="indefinite"/></path></svg></g>
+</g></svg>
